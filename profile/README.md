@@ -13,9 +13,3 @@
 <a href="mailto:contact@sodalabs.se" alt="Send us an email">
   <img alt="Send us an email" src="./img/email.svg" style="width: 48px; height: 48px; margin-left: 16px; margin-top: 16px;" />
 </a>
-
-<br />
-
-<a href="tel:+46702530034" alt="Give us a call">
-  <img alt="Give us a call" src="./img/phone.svg" style="width: 48px; height: 48px; margin-left: 16px; margin-top: 16px;" />
-</a>
