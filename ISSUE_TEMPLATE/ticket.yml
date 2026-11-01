@@ -1,0 +1,36 @@
+name: Ticket
+description: A unit of work small enough to finish in one evening (~2 hours)
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What should be true when this is done?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: "- [ ] ..."
+    validations:
+      required: true
+  - type: input
+    id: modules
+    attributes:
+      label: Modules touched
+      description: As named in ownership.yml
+    validations:
+      required: true
+  - type: dropdown
+    id: size
+    attributes:
+      label: Fits in about two hours?
+      options: ["Yes", "No — needs splitting before Redo"]
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Next step / notes
+      description: When you stop mid-ticket, write the next step here so someone else can pick it up.
